@@ -1,0 +1,3 @@
+src/pages/_app.js
+src/pages/_document.js
+next.config.js

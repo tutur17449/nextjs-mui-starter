@@ -18,6 +18,18 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Sytles
+
+Material UI, take a look at the following resource:
+- [MUI](https://material-ui.com/) - learn about MUI
+
+### Server side rendering with JSS
+We need to have same styles class name between client and server.
+For this we need to specify the name (that starts with Mui):
+```javascript
+const useStyles = makeStyles(styles, { name: 'MuiCustomNavbar' });
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

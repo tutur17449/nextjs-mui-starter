@@ -1,0 +1,29 @@
+@import "./settings/settings";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/font/Poppins-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins bold";
+  src: url("/static/font/Poppins-Black.ttf") format("ttf");
+  font-display: swap;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 1rem;
+  line-height: 1.688rem;
+  font-family: Poppins;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: $black;
+}

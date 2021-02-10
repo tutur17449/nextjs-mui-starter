@@ -10,7 +10,9 @@
 
 # next.js
 /.next/
+/src/.next/
 /out/
+/src/.out/
 
 # production
 /build
